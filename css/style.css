@@ -1,0 +1,194 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: rgb(240,240,240);
+}
+
+.nav-link.active {
+      font-weight: bold;
+  }
+
+.navbar-brand{
+	font-size: 32px;
+}
+.navbar{
+	background: white;
+	z-index: 50;
+}
+
+.nav-link{
+	margin: 0 20px;
+}
+
+.box-fix{
+	position: relative;
+	margin-top: 20px;
+}
+
+.bv{
+	 margin-top: 20px;
+}
+
+.form-group{
+	margin-top: 20px;
+}
+
+.btn-primary{
+	margin-top: 20px;
+}
+
+section.bg-top{
+	width: 100%;
+	min-height: 600px;
+	background-image: url('../images/pet.avif');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	background-attachment: fixed;
+	z-index: 1;
+}
+
+.chamada2{
+	margin-top: 90px;
+	padding: 18px;
+	color: #646464;
+}
+
+.txt-chamada2{
+	padding: 18px;
+}
+
+.overlay{
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background:rgba(40,40,40,0.5);
+}
+
+.fix-zindex{
+	position: relative;
+	z-index: 9999;
+	margin-top: 50px;
+	color: white;
+}
+
+h2{
+	margin-top: 60px;
+}
+
+
+.texto-bg{
+	display: flex;
+	color: white;
+	margin-top: 140px;
+	width: 40%;
+}
+
+.texto-bg2{		
+	margin-top: 140px;
+	width: 45%;
+	margin-left: 50px;
+}
+
+.text-center{
+	margin-top: 20px;
+}
+
+.btn-secondary{
+	background-color: #0dcaf0;
+}
+
+.mb-3{
+	max-width: 400px;
+	margin-right: 30px;
+}
+
+.diferenciais{
+	margin-top: -70px;
+}
+
+section.diferenciais{
+	color: #646464;
+
+}
+
+section.diferenciais .col-md-4{
+	padding: 0 25px;
+}
+
+
+section.diferenciais h2{
+	padding: 10px 0;
+	border-bottom: 3px dotted #646464;
+  	
+}
+
+.row{
+	margin-top: -80px;
+	padding-bottom: 20px;
+}
+
+section.convite{
+	padding-top: 15px;
+	background: white;
+}
+
+section.convite h2{
+	font-size: 35px;
+	padding: 30px;
+}
+
+section.contato{
+	padding: 30px 0;
+	background: white;
+}
+
+#sobre {
+      padding-top: 100px;
+}
+
+footer{
+	background-color: white;
+}
+
+@media screen and (max-width: 900px) {
+    .navbar-nav {
+        margin-top: 30px;
+    }
+
+    .texto-bg {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .texto-bg2 {
+        display: block;
+        min-width: 90%;
+        justify-content: normal;
+        margin: 10px 20px;
+    }
+
+    .btn-primary {
+        width: 100%;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .nav-link {
+        border-top: 1px solid black;
+        margin: 0 10px;
+    }
+
+    .btn-primary2{
+    	color: white;
+    	margin-top: 80px;
+    }
+}
